@@ -5,5 +5,5 @@ def reverse_each_word(str)
     r << w.reverse
   end
   
-  return r
+  return r.join
 end
